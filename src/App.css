@@ -1,0 +1,1242 @@
+
+
+
+@media only screen and (min-width: 50px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .App {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    height: 100vh;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .Heading {
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px rgb(255, 97, 16);
+  }
+
+  .search-bar {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.3rem 0rem;
+  }
+
+  .search_item {
+    width: 7rem;
+    padding: 0.2rem 1rem;
+    font-size: 1.1rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 0rem;
+    background-color: #dcdcdc;
+    outline: none;
+  }
+
+  .search_icon {
+    font-size: 1.2rem;
+  }
+
+  .fa-magnifying-glass {
+    color: black;
+    margin-left: -3rem;
+    margin-bottom: 5px;
+  }
+
+  .fa-magnifying-glass:hover {
+    cursor: pointer;
+  }
+
+  .form-switch {
+    margin-left: 1rem;
+  }
+
+  .form-check-input:hover {
+    cursor: pointer;
+  }
+
+  .form-check-label {
+    margin-left: -0.7rem;
+    font-size: 0.6rem;
+  }
+
+  .note_list {
+    text-align: justify;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  }
+
+  .notes_box {
+    min-height: 9rem;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1rem;
+    white-space: pre-wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .new_note textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    outline: none;
+  }
+
+  .notes_footer {
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .fa-trash {
+    cursor: pointer;
+  }
+
+  .save {
+    font-size: 0.8rem;
+    border-radius: 20px;
+    width: 3rem;
+  }
+
+  .save:hover {
+    font-size: 0.85rem;
+    cursor: pointer;
+    background-color: aliceblue;
+  }
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 250px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .App {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    height: 100vh;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .Heading {
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px rgb(255, 97, 16);
+  }
+
+  .search-bar {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.3rem 0rem;
+  }
+
+  .search_item {
+    width: 7rem;
+    padding: 0.2rem 1rem;
+    font-size: 1.1rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 0rem;
+    background-color: #dcdcdc;
+    outline: none;
+  }
+
+  .search_icon {
+    font-size: 1.2rem;
+  }
+
+  .fa-magnifying-glass {
+    color: black;
+    margin-left: -3rem;
+    margin-bottom: 5px;
+  }
+
+  .fa-magnifying-glass:hover {
+    cursor: pointer;
+  }
+
+  .form-switch {
+    margin-left: 1rem;
+  }
+
+  .form-check-input:hover {
+    cursor: pointer;
+  }
+
+  .form-check-label {
+    margin-left: -0.7rem;
+    font-size: 0.6rem;
+  }
+
+  .note_list {
+    text-align: justify;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  }
+
+  .notes_box {
+    min-height: 9rem;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1rem;
+    white-space: pre-wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .new_note textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    outline: none;
+  }
+
+  .notes_footer {
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .fa-trash {
+    cursor: pointer;
+  }
+
+  .save {
+    font-size: 0.8rem;
+    border-radius: 20px;
+    width: 3rem;
+  }
+
+  .save:hover {
+    font-size: 0.85rem;
+    cursor: pointer;
+    background-color: aliceblue;
+  }
+}
+
+
+
+
+
+@media only screen and (min-width: 300px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .App {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    height: 100vh;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .Heading {
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px rgb(255, 97, 16);
+  }
+
+  .search-bar {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.3rem 0rem;
+  }
+
+  .search_item {
+    width: 11rem;
+    padding: 0.2rem 1rem;
+    font-size: 1.1rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 0rem;
+    background-color: #dcdcdc;
+    outline: none;
+  }
+
+  .search_icon {
+    font-size: 1.2rem;
+  }
+
+  .fa-magnifying-glass {
+    color: black;
+    margin-left: -3rem;
+    margin-bottom: 5px;
+  }
+
+  .fa-magnifying-glass:hover {
+    cursor: pointer;
+  }
+
+  .form-switch {
+    margin-left: 1rem;
+  }
+
+  .form-check-input:hover {
+    cursor: pointer;
+  }
+
+  .form-check-label {
+    margin-left: -0.4rem;
+    font-size: 0.6rem;
+  }
+
+  .note_list {
+    text-align: justify;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  }
+
+  .notes_box {
+    min-height: 9rem;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1.15rem;
+    white-space: pre-wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .new_note textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    outline: none;
+  }
+
+  .notes_footer {
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .fa-trash {
+    cursor: pointer;
+  }
+
+  .save {
+    font-size: 0.8rem;
+    border-radius: 20px;
+    width: 3rem;
+  }
+
+  .save:hover {
+    font-size: 0.85rem;
+    cursor: pointer;
+    background-color: aliceblue;
+  }
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 350px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .App {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    height: 100vh;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .Heading {
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px rgb(255, 97, 16);
+  }
+
+  .search-bar {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.3rem 0rem;
+  }
+
+  .search_item {
+    width: 11rem;
+    padding: 0.2rem 1rem;
+    font-size: 1.1rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 0rem;
+    background-color: #dcdcdc;
+    outline: none;
+  }
+
+  .search_icon {
+    font-size: 1.2rem;
+  }
+
+  .fa-magnifying-glass {
+    color: black;
+    margin-left: -3rem;
+    margin-bottom: 5px;
+  }
+
+  .fa-magnifying-glass:hover {
+    cursor: pointer;
+  }
+
+  .form-switch {
+    margin-left: 1rem;
+  }
+
+  .form-check-input:hover {
+    cursor: pointer;
+  }
+
+  .form-check-label {
+    margin-left: -0.6rem;
+    font-size: 0.6rem;
+  }
+
+  .note_list {
+    text-align: justify;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  }
+
+  .notes_box {
+    min-height: 9rem;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    white-space: pre-wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .new_note textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    outline: none;
+  }
+
+  .notes_footer {
+    font-size: 0.8em;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .fa-trash {
+    cursor: pointer;
+  }
+
+  .save {
+    font-size: 0.8rem;
+    border-radius: 20px;
+    width: 3rem;
+  }
+
+  .save:hover {
+    font-size: 0.85rem;
+    cursor: pointer;
+    background-color: aliceblue;
+  }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 400px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .App {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1.3rem;
+    height: 100vh;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .Heading {
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px rgb(255, 97, 16);
+  }
+
+  .search-bar {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.3rem 0rem;
+  }
+
+  .search_item {
+    width: 29rem;
+    padding: 0.2rem 1rem;
+    font-size: 1.1rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 0rem;
+    background-color: #dcdcdc;
+    outline: none;
+  }
+
+  .search_icon {
+    font-size: 1.2rem;
+  }
+
+  .fa-magnifying-glass {
+    color: black;
+    margin-left: -3rem;
+    margin-bottom: 5px;
+  }
+
+  .fa-magnifying-glass:hover {
+    cursor: pointer;
+  }
+
+  .form-switch {
+    margin-left: 1rem;
+  }
+
+  .form-check-input:hover {
+    cursor: pointer;
+  }
+
+  .form-check-label {
+    margin-left: -0.4rem;
+    font-size: 0.8rem;
+  }
+
+  .note_list {
+    text-align: justify;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  }
+
+  .notes_box {
+    min-height: 10rem;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1.1rem;
+    white-space: pre-wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .new_note textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    outline: none;
+  }
+
+  .notes_footer {
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .fa-trash {
+    cursor: pointer;
+  }
+
+  .save {
+    font-size: 0.8rem;
+    border-radius: 20px;
+    width: 3rem;
+  }
+
+  .save:hover {
+    font-size: 0.85rem;
+    cursor: pointer;
+    background-color: aliceblue;
+  }
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 500px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .App {
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+    height: 100vh;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .Heading {
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px rgb(255, 97, 16);
+  }
+
+  .search-bar {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.3rem 0rem;
+  }
+
+  .search_item {
+    width: 29rem;
+    padding: 0.2rem 1rem;
+    font-size: 1.1rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 0rem;
+    background-color: #dcdcdc;
+    outline: none;
+  }
+
+  .search_icon {
+    font-size: 1.2rem;
+  }
+
+  .fa-magnifying-glass {
+    color: black;
+    margin-left: -3rem;
+    margin-bottom: 5px;
+  }
+
+  .fa-magnifying-glass:hover {
+    cursor: pointer;
+  }
+
+  .form-switch {
+    margin-left: 2rem;
+  }
+
+  .form-check-input:hover {
+    cursor: pointer;
+  }
+
+  .form-check-label {
+    margin-left: -0.4rem;
+    font-size: 0.8rem;
+  }
+
+  .note_list {
+    text-align: justify;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  }
+
+  .notes_box {
+    min-height: 10rem;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1.3rem;
+    white-space: pre-wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .new_note textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    outline: none;
+  }
+
+  .notes_footer {
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .fa-trash {
+    cursor: pointer;
+  }
+
+  .save {
+    font-size: 1.15rem;
+    border-radius: 20px;
+    width: 4.2rem;
+  }
+
+  .save:hover {
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: aliceblue;
+  }
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .App {
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+    height: 100vh;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .Heading {
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px rgb(255, 97, 16);
+  }
+
+  .search-bar {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.3rem 0rem;
+  }
+
+  .search_item {
+    width: 22rem;
+    padding: 0.2rem 1rem;
+    font-size: 1.1rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 0rem;
+    background-color: #dcdcdc;
+    outline: none;
+  }
+
+  .search_icon {
+    font-size: 1.2rem;
+  }
+
+  .fa-magnifying-glass {
+    color: black;
+    margin-left: -3rem;
+    margin-bottom: 5px;
+  }
+
+  .fa-magnifying-glass:hover {
+    cursor: pointer;
+  }
+
+  .form-switch {
+    margin-left: 4rem;
+  }
+
+  .form-check-input:hover {
+    cursor: pointer;
+  }
+
+  .form-check-label {
+    margin-left: -0.4rem;
+    font-size: 0.8rem;
+  }
+
+  .note_list {
+    text-align: justify;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  }
+
+  .notes_box {
+    min-height: 10rem;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1.3rem;
+    white-space: pre-wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .new_note textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    outline: none;
+  }
+
+  .notes_footer {
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .fa-trash {
+    cursor: pointer;
+  }
+
+  .save {
+    font-size: 1.15rem;
+    border-radius: 20px;
+    width: 4.2rem;
+  }
+
+  .save:hover {
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: aliceblue;
+  }
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 800px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .App {
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+    height: 100vh;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .Heading {
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px rgb(255, 97, 16);
+  }
+
+  .search-bar {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.3rem 0rem;
+  }
+
+  .search_item {
+    width: 22rem;
+    padding: 0.2rem 1rem;
+    font-size: 1.1rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 11rem;
+    background-color: #dcdcdc;
+    outline: none;
+  }
+
+  .search_icon {
+    font-size: 1.2rem;
+  }
+
+  .fa-magnifying-glass {
+    color: black;
+    margin-left: -3rem;
+    margin-bottom: 5px;
+  }
+
+  .fa-magnifying-glass:hover {
+    cursor: pointer;
+  }
+
+  .form-switch {
+    margin-left: 4rem;
+  }
+
+  .form-check-input:hover {
+    cursor: pointer;
+  }
+
+  .form-check-label {
+    margin-left: -0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .note_list {
+    text-align: justify;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  }
+
+  .notes_box {
+    min-height: 10rem;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    white-space: pre-wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .new_note textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    outline: none;
+  }
+
+  .notes_footer {
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .fa-trash {
+    cursor: pointer;
+  }
+
+  .save {
+    font-size: 1.15rem;
+    border-radius: 20px;
+    width: 4.2rem;
+  }
+
+  .save:hover {
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: aliceblue;
+  }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 900px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .App {
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+    height: 100vh;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .Heading {
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px rgb(255, 97, 16);
+  }
+
+  .search-bar {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.3rem 0rem;
+  }
+
+  .search_item {
+    width: 29rem;
+    padding: 0.2rem 1rem;
+    font-size: 1.1rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 11rem;
+    background-color: #dcdcdc;
+    outline: none;
+  }
+
+  .search_icon {
+    font-size: 1.2rem;
+  }
+
+  .fa-magnifying-glass {
+    color: black;
+    margin-left: -3rem;
+    margin-bottom: 5px;
+  }
+
+  .fa-magnifying-glass:hover {
+    cursor: pointer;
+  }
+
+  .form-switch {
+    margin-left: 4rem;
+  }
+
+  .form-check-input:hover {
+    cursor: pointer;
+  }
+
+  .form-check-label {
+    margin-left: 0rem;
+    font-size: 0.8rem;
+  }
+
+  .note_list {
+    text-align: justify;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  }
+
+  .notes_box {
+    min-height: 10rem;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    white-space: pre-wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .new_note textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    outline: none;
+  }
+
+  .notes_footer {
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .fa-trash {
+    cursor: pointer;
+  }
+
+  .save {
+    font-size: 1.15rem;
+    border-radius: 20px;
+    width: 4.2rem;
+  }
+
+  .save:hover {
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: aliceblue;
+  }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1080px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .App {
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+    height: 100vh;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .Heading {
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px rgb(255, 97, 16);
+  }
+
+  .search-bar {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.3rem 0rem;
+  }
+
+  .search_item {
+    width: 34rem;
+    padding: 0.2rem 1rem;
+    font-size: 1.1rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 11rem;
+    background-color: #dcdcdc;
+    outline: none;
+  }
+
+  .search_icon {
+    font-size: 1.2rem;
+  }
+
+  .fa-magnifying-glass {
+    color: black;
+    margin-left: -3rem;
+    margin-bottom: 5px;
+  }
+
+  .fa-magnifying-glass:hover {
+    cursor: pointer;
+  }
+
+  .form-switch {
+    margin-left: 5rem;
+  }
+
+  .form-check-input:hover {
+    cursor: pointer;
+  }
+
+  .form-check-label {
+    margin-left: 0rem;
+    font-size: 1rem;
+  }
+
+  .note_list {
+    text-align: justify;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  }
+
+  .notes_box {
+    min-height: 10rem;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    white-space: pre-wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .new_note textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    outline: none;
+  }
+
+  .notes_footer {
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .fa-trash {
+    cursor: pointer;
+  }
+
+  .save {
+    font-size: 1.15rem;
+    border-radius: 20px;
+    width: 4.2rem;
+  }
+
+  .save:hover {
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: aliceblue;
+  }
+}
